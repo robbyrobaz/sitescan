@@ -1,0 +1,41 @@
+name: Assemble Craig Peterson report
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Concatenate report parts
+        run: |
+          set -euo pipefail
+          if [ ! -d reports/_parts ]; then
+            echo "No parts directory; nothing to assemble"
+            exit 0
+          fi
+          {
+            cat reports/craig-peterson.md
+            printf '\n'
+            cat reports/_parts/power-ranch.md
+            printf '\n'
+            cat reports/_parts/san-tan-valley.md
+            printf '\n'
+            cat reports/_parts/san-tan-village-and-plan.md
+          } > /tmp/craig-peterson.md
+          mv /tmp/craig-peterson.md reports/craig-peterson.md
+          rm -rf reports/_parts
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Add Craig Peterson SEO and AI visibility report"
+          git push
