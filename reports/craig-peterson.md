@@ -66,3 +66,112 @@ The portfolio averages **83**. The custom site is in clearly better shape than t
 | Technical health | 89 | 80 | 80 | 80 | 80 |
 
 ---
+
+## Convenient Chiropractic — 89 (Good)
+
+**URL:** https://convenient-chiropractic.com/  
+**Page title:** Chiropractor in the Southeast Valley AZ | Walk-In Care | $29  
+**HTTP:** 200 in 1624 ms  
+**Control:** Craig’s custom site — changes can ship now
+
+| Category | Score |
+| --- | ---: |
+| SEO fundamentals | 98 |
+| AI visibility | 74 |
+| Links & mentions | 92 |
+| Social & sharing | 100 |
+| Technical health | 89 |
+
+### Findings
+
+#### SEO fundamentals
+
+| | Check | Result | Next step |
+| --- | --- | --- | --- |
+| ✅ | Page title | “Chiropractor in the Southeast Valley AZ \| Walk-In Care \| $29” (60 chars). | — |
+| ✅ | Meta description | 161 chars — good length. | — |
+| ✅ | H1 heading | “Affordable Chiropractor in the Southeast Valley, AZ Walk-In Care Available” | — |
+| ✅ | Heading structure | 7 H2 headings organizing the content. | — |
+| ✅ | Canonical URL | https://convenient-chiropractic.com/ | — |
+| ✅ | Indexability | Meta robots: “index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1”. | — |
+| ⚠️ | Image alt text | 9 of 19 images missing alt text. | Add descriptive alt text to every meaningful image — it feeds image search and accessibility. |
+| ✅ | Language declaration | <html lang="en-US"> | — |
+| ✅ | robots.txt | Found at https://convenient-chiropractic.com/robots.txt. | — |
+| ✅ | XML sitemap | Found: https://convenient-chiropractic.com/sitemap.xml. | — |
+| ℹ️ | hreflang alternates | No hreflang tags — fine for a single-language US site. | — |
+| ✅ | Breadcrumb trail | Breadcrumbs present (schema and/or visible nav). | — |
+| ✅ | Content freshness signal | Last-modified / time markup: 2026-08-25T18:42:55+00:00. | — |
+| ℹ️ | Geo / locality meta | No geo meta tags. LocalBusiness schema (checked under AI visibility) is the preferred replacement. | — |
+
+#### AI visibility
+
+| | Check | Result | Next step |
+| --- | --- | --- | --- |
+| ✅ | Structured data (JSON-LD) | 1 block — types: WebPage, MedicalWebPage, ImageObject, BreadcrumbList, WebSite. | — |
+| ❌ | LocalBusiness / Chiropractor schema | No LocalBusiness, Chiropractor, or Organization schema. | Add Chiropractor schema (schema.org/Chiropractor) with NAP data, hours, geo, and sameAs links to your Google Business Profile and social accounts. |
+| ⚠️ | FAQ schema | No FAQPage schema. | Add an FAQ section with FAQPage schema answering common questions (pricing, walk-ins, insurance, what to expect). AI assistants lift these answers verbatim. |
+| ⚠️ | Review / AggregateRating schema | No Review or AggregateRating schema. | Add AggregateRating (and individual reviews you own the rights to) so Google can show stars and AI answers can cite social proof. |
+| ℹ️ | Speakable schema | No Speakable schema — optional, but it flags the sentences you want voice assistants to read aloud. | — |
+| ✅ | AI crawler access | robots.txt allows all 7 major AI crawlers (GPTBot, ClaudeBot, PerplexityBot, …). | — |
+| ✅ | llms.txt | Found at https://convenient-chiropractic.com/llms.txt. | — |
+| ✅ | Server-rendered content | ~1906 words available without JavaScript. | — |
+| ✅ | Semantic HTML | Uses article, nav, header, footer. | — |
+
+#### Links & mentions
+
+| | Check | Result | Next step |
+| --- | --- | --- | --- |
+| ✅ | Internal links | 25 internal links — crawlers can move around the site. | — |
+| ✅ | Outbound links | 10 outbound links to 2 hosts (thejoint.co, maps.app.goo.gl). | — |
+| ✅ | Outbound follow vs nofollow | 10 follow / 0 nofollow (100% pass equity). | — |
+| ✅ | Anchor text quality | No generic “click here / learn more” anchors detected. | — |
+| ⚠️ | Href quality | 4 empty, “#”, or javascript: hrefs. | Crawlers and assistive tech cannot follow those. Point them at real URLs. |
+| ⚠️ | target=_blank safety | 13 target=_blank links missing rel="noopener". | Add rel="noopener noreferrer" so the destination page cannot access window.opener. |
+| ✅ | Social / citation profile links | Found 5: maps.app.goo.gl. | — |
+| ✅ | Clickable NAP (phone / email) | 3 tel: and 0 mailto: links. | — |
+| ℹ️ | Inbound links (off-site) | Inbound links cannot be counted from this page alone — Google’s index is the free source of truth. Use the research searches below (especially “Inbound mentions of this URL” and “Brand mentions off-site”). | Run those Google queries, then chase unlinked mentions (directories, sponsors, local news) and ask them to link. |
+
+#### Social & sharing
+
+| | Check | Result | Next step |
+| --- | --- | --- | --- |
+| ✅ | Open Graph tags | og:title, og:description, and og:image all present. | — |
+| ✅ | og:type and og:url | og:type=website; og:url present. | — |
+| ✅ | Twitter/X card | twitter:card = “summary_large_image”. | — |
+| ✅ | Favicon | Favicon link tag present. | — |
+
+#### Technical health
+
+| | Check | Result | Next step |
+| --- | --- | --- | --- |
+| ✅ | HTTPS | Site serves over HTTPS. | — |
+| ✅ | HTTP status | 200 OK. | — |
+| ⚠️ | Server response time | 1624 ms — noticeably slow. | Aim for under ~800 ms. Enable caching/CDN or upgrade hosting. |
+| ✅ | HTML size | 193 KB of HTML. | — |
+| ✅ | Mobile viewport | “width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0”. | — |
+| ✅ | Mixed content | No insecure http:// resources referenced. | — |
+| ⚠️ | HSTS | No Strict-Transport-Security header. | Send HSTS so browsers always use HTTPS — a small ranking and trust signal. |
+| ⚠️ | X-Content-Type-Options | Missing X-Content-Type-Options: nosniff. | Add the header to block MIME sniffing. |
+| ✅ | Response compression | Content-Encoding: gzip. | — |
+| ✅ | Cache-Control | max-age=7200 | — |
+| ✅ | X-Robots-Tag | No blocking X-Robots-Tag header. | — |
+| ✅ | Image lazy-loading | 13 of 19 images use loading="lazy". | — |
+| ℹ️ | Image width/height (CLS) | 4 of 19 images missing width or height. | Set width and height (or aspect-ratio) so the page does not jump as images load. |
+| ✅ | Modern image formats | 3 WebP/AVIF references. | — |
+| ⚠️ | Render-blocking scripts | 2 render-blocking scripts in <head>. | Add defer/async (or type=module) so first paint is not held up — a Core Web Vitals item. |
+| ✅ | Preconnect / DNS-prefetch | 1 early-connection hint. | — |
+
+### Google research (indexation, inbound mentions, citations)
+
+Open these in a logged-in browser. Result counts and the pages listed are what Google currently shows — that is the inbound / mention audit.
+
+| Question | Query | Search |
+| --- | --- | --- |
+| Pages Google has indexed | `site:convenient-chiropractic.com` | [Open in Google](https://www.google.com/search?q=site%3Aconvenient-chiropractic.com) |
+| Inbound mentions of this URL | `"https://convenient-chiropractic.com/" -site:convenient-chiropractic.com` | [Open in Google](https://www.google.com/search?q=%22https%3A%2F%2Fconvenient-chiropractic.com%2F%22%20-site%3Aconvenient-chiropractic.com) |
+| Brand mentions off-site | `"Convenient Chiropractic" -site:convenient-chiropractic.com` | [Open in Google](https://www.google.com/search?q=%22Convenient%20Chiropractic%22%20-site%3Aconvenient-chiropractic.com) |
+| Cached / last crawled copy | `cache:https://convenient-chiropractic.com/` | [Open in Google](https://www.google.com/search?q=cache%3Ahttps%3A%2F%2Fconvenient-chiropractic.com%2F) |
+| Related sites Google associates | `related:convenient-chiropractic.com` | [Open in Google](https://www.google.com/search?q=related%3Aconvenient-chiropractic.com) |
+| News and PR mentions | `"Convenient Chiropractic"` | [Open in Google](https://www.google.com/search?tbm=nws&q=%22Convenient%20Chiropractic%22) |
+
+---
